@@ -1,0 +1,28 @@
+QMAKE_LICHECK_TIMESTAMP = "Mon Feb 24"
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_MSC_VER = 1929
+QMAKE_CXX.QMAKE_MSC_FULL_VER = 192930145
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_MSC_VER \
+    QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    C:\\Users\\lyk\\Desktop\\FlowStone2\\ModelHandling \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Tools\\MSVC\\14.29.30133\\include \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Auxiliary\\VS\\include \
+    "D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt" \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Auxiliary\\VS\\UnitTest\\include \
+    "D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um" \
+    "D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared" \
+    "D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt" \
+    "D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt" \
+    Include\\um
+QMAKE_CXX.LIBDIRS = \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x64 \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\lib\\x64 \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Auxiliary\\VS\\lib\\x64 \
+    "D:\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x64" \
+    D:\\ProgramFiles\\VS2019\\vs\\VC\\Auxiliary\\VS\\UnitTest\\lib \
+    "D:\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x64" \
+    lib\\um\\x64

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FlowStone1.0.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #A9A9A9;  /* 浅灰色背景 */
+height: 20px;                /* 设置矩形的高度 */
+border: none;                /* 去掉边框 */
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent;  /* 设置按钮背景透明 */
+border: none;                    /* 去除按钮边框 */
+color: #000000;                  /* 设置文字颜色为黑色，可以根据需要修改 */
+font-weight: bold;               /* 设置文字加粗 */
+font-family: &quot;黑体&quot;, sans-serif; /* 设置字体为微软雅黑，可以根据需求修改为其他字体 */
+font: 9pt ;
+font-size: 14px;                 /* 设置字体大小为14px，可以根据需要调整 */
+font: 11pt ;</string>
+     </property>
+     <property name="text">
+      <string>打开模型</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/new/prefix1/icon/OpenFile.png</normaloff>:/new/prefix1/icon/OpenFile.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>801</width>
+      <height>501</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpenFile"/>
+    <addaction name="separator"/>
+    <addaction name="actionactionExportFile"/>
+    <addaction name="separator"/>
+    <addaction name="actionactionExit"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpenFile">
+   <property name="text">
+    <string>打开模型</string>
+   </property>
+  </action>
+  <action name="actionactionExportFile">
+   <property name="text">
+    <string>导出模型</string>
+   </property>
+  </action>
+  <action name="actionactionExit">
+   <property name="text">
+    <string>退出程序</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
